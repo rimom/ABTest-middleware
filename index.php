@@ -7,6 +7,7 @@ require 'DesignSelectorMiddleware.php';
 //as a middleware, it requires the class Request and Session
 
 //1 - populated the array with the data fetched from the dataBase:
+// It could be implemented using a 'design entity' but I just used array to simplify the example
 $designs = [
    'design_1' => [
        'design_id' => 1,
