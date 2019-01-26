@@ -45,7 +45,7 @@ for($i=0; $i < 100000; $i++) {
     $diceValue = random_int(0,99);
 
     foreach($designs as &$design) {
-        //check if the dice value is whitin the range of each specific design
+        //check if the dice value is within the range of each specific design
         if ($diceValue >= $design['rangeStart'] && $diceValue <= $design['rangeEnd']) {
             $designSelected =  $design['design_id'];
             $design['probability']++;
