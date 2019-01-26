@@ -30,8 +30,6 @@ class DesignSelectorMiddleware
    }
 
    /**
-    * Undocumented function
-    *
     * @param Request $request
     * @return void
     */
